@@ -30,7 +30,19 @@ Analisis necesidades CLA/
 
 ## Instalación y ejecución
 
-### Frontend
+Necesitas **dos terminales**: una para el backend y otra para el frontend.
+
+### 1. Backend (primera terminal)
+
+```bash
+cd backend
+npm install
+npm run dev
+```
+
+Deberías ver: `Backend CLA escuchando en http://localhost:3000`
+
+### 2. Frontend (segunda terminal)
 
 ```bash
 cd frontend
@@ -38,15 +50,12 @@ npm install
 npm run dev
 ```
 
-Abre [http://localhost:5173](http://localhost:5173). El wizard "Nuevo Análisis" se muestra al cargar.
+Deberías ver: `Local: http://localhost:5173/`
 
-### Backend
+### 3. Abrir la aplicación
 
-```bash
-cd backend
-npm install
-npm run dev
-```
+Abre en el navegador: **[http://localhost:5173](http://localhost:5173)**  
+El wizard "Nuevo Análisis" se muestra al cargar.
 
 API en [http://localhost:3000](http://localhost:3000). Endpoints de ejemplo:
 
